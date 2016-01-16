@@ -11,7 +11,7 @@ Object.prototype.extend = function(object)
   return Object.extend.apply(this, [this, object]);
 }
 
-//封装getEelementById函数
+//封装getEelementById函数 test
 function $e()
 {
   var elements = new Array();
